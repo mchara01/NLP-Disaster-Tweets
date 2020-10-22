@@ -1,11 +1,5 @@
 ## NLP with Disaster Tweets
 
-### Authors
-* Marcos Antonios Charalambous (mchara01@cs.ucy.ac.ucy)
-* Sotiris Loizides (sloizi02@cs.ucy.ac.ucy)
-		  
-Date: 26/04/2020
-
 ### Description:
 Twitter has become an important communication channel in times of emergency.
 The ubiquitousness of smartphones enables people to announce an emergency 
@@ -29,9 +23,13 @@ of 10,000 tweets that were hand classified.
 Evaluations are done using F1 between the predicted and expected answers.
 
 Each sample in the train and test set has the following information:
+
 -The id of a tweet
+
 -The text of a tweet
+
 -A keyword from that tweet (may be blank)
+
 -The location the tweet was sent from (may be blank)
 
 train.csv: Dataset used for model building which contains the above columns.
@@ -49,3 +47,9 @@ in this project.
 Details about our work can be found at the report Report_Team3.pdf and powerpoint EPL448-Team3_Final. Further documentation can be referenced in the appendix(of  the report) and output files.
 
 More info about the competition can be found at the competition's offical page on Kaggle: https://www.kaggle.com/c/nlp-getting-started
+
+### Authors
+* Marcos Antonios Charalambous (mchara01@cs.ucy.ac.ucy)
+* Sotiris Loizides (sloizi02@cs.ucy.ac.ucy)
+		  
+**Date:** 26/04/2020
